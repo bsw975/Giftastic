@@ -1,0 +1,60 @@
+<!-- HTML
+RESPONSIVE!!
+
+div at the top for 
+LEFT SIDE
+the buttons labelled with whatever
+RIGHT SIDE
+Add gif load (label, input, button)
+
+div at the bottom for the gifs
+
+JAVASCRIPT
+on ready
+document ready
+button click submit
+button click class giphy-button
+giphy click
+
+FUNCTIONS:
+add giphy-button
+populate giphy-window
+    color clicked button
+    ajax to giphy
+    empty giphy div
+toggle giphy animation -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>*giftastic*</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/giftastic.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-9 col-sm-12" id="giphy-buttons">
+                <!-- botton section -->
+            </div>
+            <div id="search-div" class="col-md-3 col-sm-12"> <!-- add giphy -->
+                <label for="giphy-input">Fun gifs</label>
+                <br>
+                <input type="text" id="giphy-input">
+                <br>
+                <input type="submit" id="submit-button">
+            </div>
+        </div>
+    </div>
+    <div id="giphys"></div>
+    <!-- <img src="https://media1.giphy.com/media/3NtY188QaxDdC/giphy_s.gif?cid=e1bb72ff5b3e6809476837526f2a3bc5" alt="I hate my life"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/giftastic.js"></script>
+</body>
+
+</html>
